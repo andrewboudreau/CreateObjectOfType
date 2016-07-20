@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{536B69C7-A8CC-40CE-8429-EB32BFA5BC30}"
+	ProjectSection(SolutionItems) = preProject
+		Ab.TestHelper.vsmdi = Ab.TestHelper.vsmdi
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ab.TestHelper", "Ab.TestHelper\Ab.TestHelper.csproj", "{FD5D01F6-B834-4DBE-B6FB-C62952269F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ab.TestHelper.UnitTest", "Ab.TestHelper.UnitTest\Ab.TestHelper.UnitTest.csproj", "{D8FE84ED-0B2E-4526-8143-85CD8991A41A}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Ab.TestHelper.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD5D01F6-B834-4DBE-B6FB-C62952269F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5D01F6-B834-4DBE-B6FB-C62952269F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5D01F6-B834-4DBE-B6FB-C62952269F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5D01F6-B834-4DBE-B6FB-C62952269F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FE84ED-0B2E-4526-8143-85CD8991A41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FE84ED-0B2E-4526-8143-85CD8991A41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FE84ED-0B2E-4526-8143-85CD8991A41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FE84ED-0B2E-4526-8143-85CD8991A41A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
