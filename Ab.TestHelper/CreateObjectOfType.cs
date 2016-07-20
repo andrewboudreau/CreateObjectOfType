@@ -13,7 +13,7 @@ namespace Ab.TestHelper
 	/// mocked constructor dependencies supplied.
 	/// </summary>
 	/// <typeparam name="TObject">Type of target object to create.</typeparam>
-	public class CreateObjectOfType<TObject> : IHideObjectMembers
+	public class CreateObjectOfType<TObject>
 		where TObject : class
 	{
 		/// <summary>
@@ -223,7 +223,7 @@ namespace Ab.TestHelper
 		}
 
 		private IList<IParameterMock> ParameterMocks { get; set; }
-		private IList<Type> ObjectConstructorParameterTypes { get; set; }
 
+		private IList<Type> ObjectConstructorParameterTypes { get; set; }
 	}
 }
